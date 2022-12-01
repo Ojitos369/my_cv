@@ -1,0 +1,97 @@
+.container-fluent {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.icon-text svg {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+.envelope-primary {
+    fill: #000;
+}
+.envelope-secondary {
+    fill: #888;
+}
+
+.phone-primary {
+    fill: #888;
+}
+.phone-secondary {
+    fill: #000;
+}
+
+.location-primary {
+    fill: #000;
+}
+.location-secondary {
+    fill: #888;
+}
+
+.fa-primary {
+    fill: #000;
+}
+.fa-secondary {
+    fill: #888;
+}
+
+.globe-primary {
+    fill: #000;
+}
+.globe-secondary {
+    fill: #888;
+}
+
+hr {
+    border-top: 3px solid #121212;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.skill-level {
+    border-top: 1px solid #000;
+    width: 100%;
+    margin: 0;
+}
+
+.text-skill {
+    margin: 0;
+}
+
+.green-skill {
+    border-top: 5px solid #0a0;
+    width: 100%;
+}
+
+.yellow-skill {
+    border-top: 5px solid #ff0;
+    width: 75%;
+}
+
+.orange-skill {
+    border-top: 5px solid #f80;
+    width: 50%;
+}
+
+.red-skill {
+    border-top: 5px solid #a00;
+    width: 25%;
+}
+
+li p {
+    margin-bottom: 0;
+}
+
+.ul-doted li {
+    list-style: square inside;
+}
