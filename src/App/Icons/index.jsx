@@ -37,9 +37,9 @@ const GeneralDoble = props => {
     const secondary = props.secondary || props.class2 || '';
     const fillPrimary = props.fillPrimary || props.fill1 || '';
     const fillSecondary = props.fillSecondary || props.fill2 || '';
-    const className = props.className || `icon ${icon || dobles[`${name}_icon`]}` || '';
-    const classPrimary = props.classPrimary || primary || (!fillPrimary && dobles[`${name}_primary`]) || '';
-    const classSecondary = props.classSecondary || secondary || (!fillSecondary && dobles[`${name}_secondary`]) || '';
+    const className = props.className || `icon ${icon || dobles[`${name}`]}` || '';
+    const classPrimary = props.classPrimary || primary || (!fillPrimary && dobles[`primary`]) || '';
+    const classSecondary = props.classSecondary || secondary || (!fillSecondary && dobles[`secondary`]) || '';
     const style = props.style || {};
     const stylePrimary = props.stylePrimary || props.style1 || {};
     const styleSecondary = props.styleSecondary || props.style2 || {};
@@ -161,6 +161,45 @@ const Moon = props => {
             />
     )
 }
+const Envelope = props => {
+    const name = 'envelope';
+    const d1="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464z";
+    const d2="M19.2 150.4L236.8 313.6C248.2 322.1 263.8 322.1 275.2 313.6L492.8 150.4C504.9 141.3 512 127.1 512 112V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V112C0 127.1 7.113 141.3 19.2 150.4z";
+    return (
+        <GeneralDoble
+            name={name}
+            d1={d1}
+            d2={d2}
+            {...props}
+            />
+    )
+}
+const Phone = props => {
+    const name = 'phone';
+    const d1="M352 48V384H32V48C32 21.5 53.5 0 80 0h224C330.5 0 352 21.5 352 48z";
+    const d2="M32 384v80C32 490.5 53.5 512 80 512h224c26.5 0 48-21.5 48-48V384H32zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1z";
+    return (
+        <GeneralDoble
+            name={name}
+            d1={d1}
+            d2={d2}
+            {...props}
+            />
+    )
+}
+const Location = props => {
+    const name = 'location';
+    const d1="M273.2 311.1C241.1 271.9 168 174.6 168 120C168 53.73 221.7 0 288 0C354.3 0 408 53.73 408 120C408 174.6 334.9 271.9 302.8 311.1C295.1 321.6 280.9 321.6 273.2 311.1V311.1zM288 152C310.1 152 328 134.1 328 112C328 89.91 310.1 72 288 72C265.9 72 248 89.91 248 112C248 134.1 265.9 152 288 152z";
+    const d2="M416 503V200.4C419.5 193.5 422.7 186.7 425.6 179.9C426.1 178.6 426.6 177.4 427.1 176.1L543.1 129.7C558.9 123.4 576 135 576 152V422.8C576 432.6 570 441.4 560.9 445.1L416 503zM15.09 187.3L137.6 138.3C140 152.5 144.9 166.6 150.4 179.9C153.3 186.7 156.5 193.5 160 200.4V451.8L32.91 502.7C17.15 508.1 0 497.4 0 480.4V209.6C0 199.8 5.975 190.1 15.09 187.3H15.09zM384 504.3L191.1 449.4V255C212.5 286.3 234.3 314.6 248.2 331.1C268.7 357.6 307.3 357.6 327.8 331.1C341.7 314.6 363.5 286.3 384 255L384 504.3z";
+    return (
+        <GeneralDoble
+            name={name}
+            d1={d1}
+            d2={d2}
+            {...props}
+            />
+    )
+}
 
 export { 
     AnimateEdit,
@@ -169,4 +208,7 @@ export {
     Pause,
     Sun,
     Moon,
+    Envelope,
+    Phone,
+    Location,
  };

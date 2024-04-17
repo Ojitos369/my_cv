@@ -1,0 +1,36 @@
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        .icon_contact {
+            svg {
+                display: inline;
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+        .text_contact {
+            text-decoration: underline;
+        }
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}

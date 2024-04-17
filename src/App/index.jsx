@@ -17,7 +17,7 @@ const BgTheme = () => {
     return (
         <>
             <div className={`wipeInDown full-page-container bg-my-${ls.theme}`}></div>
-            <Theme />
+            {/* <Theme /> */}
         </>
     )
 }
