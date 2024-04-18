@@ -2,6 +2,7 @@ import styles from './styles/index.module.scss';
 
 import { Contacto } from './Contacto';
 import { Experiencia } from './Experiencia';
+import { Formacion } from './Formacion';
 
 const Index = props => {
 
@@ -13,8 +14,13 @@ const Index = props => {
             <Contacto />
             <hr className='w-11/12 my-4 border border-[var(--my-minor)]'/>
             <Experiencia />
+            <Formacion />
         </div>
     )
 }
 
 export { Index };
+
+/* 
+
+*/
