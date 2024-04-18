@@ -19,6 +19,10 @@
     a {
         display: flex;
         justify-content: center;
+        color: var(--my-minor);
+        &:hover {
+            color: var(--my-secondary);
+        }
         .icon_contact {
             svg {
                 display: inline;
@@ -38,6 +42,13 @@
         font-size: 2rem;
         font-weight: 500;
     }
+    ul {
+        margin-top: 1rem;
+        li {
+            list-style: inside;
+            font-size: 0.9rem;
+        }
+    }
     .exp_item {
         h3 {
             font-size: 1.5rem;
@@ -47,13 +58,6 @@
             p {
                 font-size: 1.2rem;
                 font-weight: 500;
-            }
-            ul {
-                margin-top: 1rem;
-                li {
-                    list-style: inside;
-                    font-size: 0.9rem;
-                }
             }
         }
     }
@@ -75,5 +79,21 @@
                 font-size: 0.9rem;
             }
         }
+    }
+    .link_item, .tec_item {
+        p {
+            span {
+                margin-left: 10px;
+                &.name {
+                    text-decoration: underline;
+                }
+                svg {
+                    display: inline;
+                }
+            }
+        }
+    }
+    .tec_item {
+        padding: 5px 10px;
     }
 }

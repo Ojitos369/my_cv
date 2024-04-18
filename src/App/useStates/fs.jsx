@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const appName = "reactAppName";
+const appName = "cv.ojitos369";
 
 const fs = createSlice({
     name: "fs",
     initialState: {
         s: {},
-        ls: localStorage.getItem(appName) ? JSON.parse(localStorage.getItem(appName)) : {theme: 'black'},
+        ls: localStorage.getItem(appName) ? JSON.parse(localStorage.getItem(appName)) : {theme: 'white'},
     },
     reducers: {
         u0: (s, action) => {
