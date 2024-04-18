@@ -11,7 +11,7 @@ const Links = props => {
         },
         {
             nombre: 'Linkedin',
-            url: 'https://www.linkedin.com/in/ojitos36',
+            url: 'https://www.linkedin.com/in/ojitos369',
             icon: Linkedin,
         },
         {
