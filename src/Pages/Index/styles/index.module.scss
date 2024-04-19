@@ -96,4 +96,17 @@
     .tec_item {
         padding: 5px 10px;
     }
+    .downloader {
+        border-radius: 50%;
+        // border: 1px solid var(--my-minor);
+        padding: 1px;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        svg {
+            cursor: pointer;
+        }
+    }
 }

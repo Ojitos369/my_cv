@@ -68,3 +68,35 @@ function App(props) {
 }
 
 export default App;
+
+
+/* 
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849258;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849258,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#888a85;stroke:#000;strokeWidth:12.849257;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#888a85",stroke:"#000",strokeWidth:12.849257,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849257;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849257,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849258;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849258,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849255;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849255,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849257;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849257,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="fillRule:evenodd;stroke:#4e8a06;strokeWidth:13.840491;strokeLinecap:round;strokeLinejoin:round;strokeMiterlimit:10;fill:url(#l)"
+style={{fillRule:"evenodd",stroke:"#4e8a06",strokeWidth:13.840491,strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:10,fill:"url(#l)"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849252;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849252,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+style="opacity:.113636;fill:#555753;stroke:#000;strokeWidth:12.849255;strokeLinecap:round;strokeLinejoin:round"
+style={{opacity:0.113636,fill:"#555753",stroke:"#000",strokeWidth:12.849255,strokeLinecap:"round",strokeLinejoin:"round"}}
+
+*/

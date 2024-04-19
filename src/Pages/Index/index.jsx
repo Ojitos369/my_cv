@@ -7,6 +7,7 @@ import { Tecnologias } from './Tecnologias';
 import { Links } from './Links';
 import { Me } from './Me';
 import { Pasatiempos } from './Pasatiempos';
+import { Downloader } from './Downloader';
 
 const Index = props => {
 
@@ -27,6 +28,7 @@ const Index = props => {
                 <div className="w-1/2 px-5"><Me /></div>
                 <div className="w-1/2 px-5"><Pasatiempos /></div>
             </div>
+            <Downloader />
         </div>
     )
 }
