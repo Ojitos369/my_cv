@@ -16,7 +16,7 @@ const Contacto = props => {
         {
             icon: Location,
             dato: 'CDMX, México',
-            link: 'https://maps.app.goo.gl/7AxFjKr9PzSugaCB8'
+            link: 'https://maps.app.goo.gl/vTJvHLwWjeG1XuX56'
         }
     ];
 

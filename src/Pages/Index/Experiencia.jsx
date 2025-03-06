@@ -9,9 +9,14 @@ const Experiencia = props => {
             // puesto: 'Software Developer',
             empresa: 'Edilar',
             actividades: [
-                "Desarrollo, actualizacion de aplicaciones para uso interno y externo de la empresa",
-                "Creacion de scripts para automatizacion de tareas, manejos de datos y arhivos",
-                "Despliegue de aplicaciones en servidores locales y en la nube",
+                "Planificación, desarrollo, y mantenimiento de aplicativos web y scripts",
+                "Creacion de Reportes y exportación a diferentes formatos (PDF/Excel/CSV)",
+                "Implementación de pasarelas de pago (Conekta/OpenPay/PayPal/Mercado Pago)",
+                "Planeacion de costos y tiempos de entrega (Fedex/Red Pack)",
+                "Automatización de compra de paquetes, consulta y moduficacion del status de lineas telefonicas (Altan)",
+                "Seguimiento de compras con analiticas (Google Analytics/Facebook Pixel)",
+                "Lectura, Carga, Modificación de archivos en la nube (Google Buckes/FPT/SSH)",
+                "Despliegue de aplicativos y scripts implementando supervisors para mantener los servicios y crons encendidos por medio de docker (Docker/GCP/SSH/Linux)",
             ],
         },
         {
@@ -63,7 +68,7 @@ const Experiencia = props => {
                                 <ul>
                                     {exp.actividades.map((act, index) => {
                                         return (
-                                            <li key={index}>
+                                            <li key={index} className={`${styles.actividad}`}>
                                                 {act}
                                             </li>
                                         )
